@@ -33,6 +33,7 @@ def app():
     # clean up / reset resources
     # Delete the test database (if adding data to your database takes a long time you may prefer not to delete the
     # database)
+
     os.unlink(db_path)
 
 
