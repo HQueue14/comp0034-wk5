@@ -61,7 +61,7 @@ def create_app(test_config=None):
 
         # Register the routes with the app in the context
         from paralympics import routes
-
+    
     return app
 
 
